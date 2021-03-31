@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="Calculator.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="All">
+  <form name="form">
+    <input type="text" name="text" class="Input">
+  </form>
+  <div class="Main">
+    <div class="del"><button onclick="del()">C</button></div>
+    <div class="backsp"><button onclick="remove()">⟵</button></div>
+    <div class="add"><button onclick="add('+')">+</button></div>
+    <div class="sub"><button onclick="add('-')">-</button></div>
+    <div class="mult"><button onclick="add('×')">×</button></div>
+    <div class="divis"><button onclick="add('÷')">÷</button></div>
+    <div class="seven"><button onclick="add('7')">7</button></div>
+    <div class="eight"><button onclick="add('8')">8</button></div>
+    <div class="nine"><button onclick="add('9')">9</button></div>
+    <div class="leftbr"><button onclick="add('(')">(</button></div>
+    <div class="four"><button onclick="add('4')">4</button></div>
+    <div class="five"><button onclick="add('5')">5</button></div>
+    <div class="six"><button onclick="add('6')">6</button></div>
+    <div class="rightbr"><button onclick="add(')')">)</button></div>
+    <div class="one"><button onclick="add('1')">1</button></div>
+    <div class="two"><button onclick="add('2')">2</button></div>
+    <div class="three"><button onclick="add('3')">3</button></div>
+    <div class="equall"><button onclick="add('=')">=</button></div>
+    <div class="zero"><button onclick="add('0')">0</button></div>
+    <div class="dot"><button onclick="add('.')">.</button></div>
+  </div>
+  </div>
+  <script type="text/javascript" src="Calculator.js"></script>
+</body>
+</html>
